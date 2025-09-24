@@ -10,7 +10,7 @@ export default function App() {
   //setMessage -> é a função para alterar o valor
 
   return(
-    <div className="w-screen h-screen p-4">
+    <div className="w-screen h-screen p-4 flex flex-col justify-center">
       <Cabecalho/>
       <Navegacao/>
       
