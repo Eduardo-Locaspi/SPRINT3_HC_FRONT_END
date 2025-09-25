@@ -2,6 +2,7 @@
 import Cabecalho from "./components/Cabecalho"
 import Navegacao from "./components/Navegacao"
 import Principal from "./components/Principal"
+import Rodape from "./components/Rodape"
 
 
 
@@ -15,7 +16,7 @@ export default function App() {
       <Cabecalho/>
       <Navegacao/>
       <Principal/>
-      
+      <Rodape/>
     </div>
 
   )
