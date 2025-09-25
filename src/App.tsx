@@ -1,6 +1,7 @@
 
 import Cabecalho from "./components/Cabecalho"
 import Navegacao from "./components/Navegacao"
+import Principal from "./components/Principal"
 
 
 
@@ -10,9 +11,10 @@ export default function App() {
   //setMessage -> é a função para alterar o valor
 
   return(
-    <div className="w-screen h-screen p-4 flex flex-col justify-center">
+    <div className="w-screen h-screen  flex flex-col ">
       <Cabecalho/>
       <Navegacao/>
+      <Principal/>
       
     </div>
 
