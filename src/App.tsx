@@ -1,9 +1,10 @@
 
 import Cabecalho from "./components/Cabecalho"
 import Navegacao from "./components/Navegacao"
-import Principal from "./components/Principal"
+
 import Rodape from "./components/Rodape"
 
+import { Outlet } from "react-router-dom"
 
 
 export default function App() {
@@ -15,7 +16,7 @@ export default function App() {
     <div className="w-screen h-screen  flex flex-col ">
       <Cabecalho/>
       <Navegacao/>
-      <Principal/>
+      <Outlet/>
       <Rodape/>
     </div>
 
