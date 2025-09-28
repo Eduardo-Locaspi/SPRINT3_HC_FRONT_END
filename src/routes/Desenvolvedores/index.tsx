@@ -1,17 +1,74 @@
+import dudu from '../../assets/img/desenvolvedor_eduardo.jpg'
 
+export default function Integrantes() {
+  return (
+    <main className="py-6 px-12">
+      <h1 className="text-5xl text-center p-10 underline ">Desenvolvedores</h1>
 
-export default function Integrantes(){
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        {/* Eduardo */}
+        <section className="bg-gray-100 text-gray-900 text-center rounded-md flex flex-col items-center border border-white">
+          <div className="p-4">
+            <h2 className="p-4 text-3xl">Eduardo Locaspi</h2>
+            <img src={dudu} alt="Foto do desenvolvedor Eduardo Locaspi" className="w-40 h-40 object-cover rounded-md"/>
 
-    return(
-        <main className="py-6 px-12">
-            <h1 className="text-4xl text-center p-10"> Desenvolvedores</h1>
+            <div className="p-5 flex flex-row justify-center gap-5">
 
-            <div className="grid grid-cols-3 gap-x-2">
-                <section className="bg-red-500 text-center rounded-md ">Eduardo Locaspi</section>
-                <section className="bg-red-400 text-center rounded-md">Natan Moraes</section>
-                <section className="bg-red-600 text-center rounded-md">Victor Lopes</section>
+              <a href="https://www.linkedin.com/in/eduardo-locaspi-14119934b/" target="_blank">
+                <img src="/img/linkedin.png" alt="LinkedIn" className="w-10" />
+              </a>
+              <a href="https://github.com/Eduardo-Locaspi" target="_blank">
+                <img src="/img/github.png" alt="GitHub" className="w-10" />
+              </a>
+
             </div>
-        </main>
-        
-    )
+          </div>
+        </section>
+
+        {/* Natan */}
+        <section className="bg-gray-100 text-gray-900 text-center rounded-md flex flex-col items-center border border-white">
+          <div className="p-4">
+            <h2 className="p-4 text-3xl">Natan Moraes</h2>
+            <img
+              src=""
+              alt="Foto do desenvolvedor Natan Moraes"
+              className="w-40 h-40 object-cover rounded-md"
+            />
+
+            <div className="p-5 flex flex-row justify-center gap-5">
+              <a
+                href="https://www.linkedin.com/in/natanfreitasdemoraes/"
+                target="_blank">
+                <img src="/img/linkedin.png" alt="LinkedIn" className="w-10" />
+              </a>
+              <a href="https://github.com/nfreitas2000" target="_blank">
+                <img src="/img/github.png" alt="GitHub" className="w-10" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Victor */}
+        <section className="bg-gray-100 text-gray-900 text-center rounded-md flex flex-col items-center">
+          <div className="p-4">
+            <h2 className="p-4 text-3xl">Victor Alves</h2>
+            <img
+              src=""
+              alt="Foto do desenvolvedor Victor Alves"
+              className="w-40 h-40 object-cover rounded-md"
+            />
+
+            <div className="p-5 flex flex-row justify-center gap-5">
+              <a href="https://www.linkedin.com/in/victor-alves-10587b2b6/" target="_blank">
+                <img src="/img/linkedin.png" alt="LinkedIn" className="w-10" />
+              </a>
+              <a href="https://github.com/victoralves10" target="_blank">
+                <img src="/img/github.png" alt="GitHub" className="w-10" />
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  )
 }
