@@ -1,4 +1,6 @@
 import dudu from '../../assets/img/desenvolvedor_eduardo.jpg'
+import victor from '../../assets/img/victor.png'
+import natan from '../../assets/img/natan.jpg'
 
 export default function Integrantes() {
   return (
@@ -30,7 +32,7 @@ export default function Integrantes() {
           <div className="p-4">
             <h2 className="p-4 text-3xl">Natan Moraes</h2>
             <img
-              src=""
+              src={natan}
               alt="Foto do desenvolvedor Natan Moraes"
               className="w-40 h-40 object-cover rounded-md"
             />
@@ -53,7 +55,7 @@ export default function Integrantes() {
           <div className="p-4">
             <h2 className="p-4 text-3xl">Victor Alves</h2>
             <img
-              src=""
+              src={victor}
               alt="Foto do desenvolvedor Victor Alves"
               className="w-40 h-40 object-cover rounded-md"
             />

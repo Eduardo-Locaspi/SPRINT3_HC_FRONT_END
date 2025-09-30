@@ -1,4 +1,4 @@
-import logo from "../../public/img/logo-imrea.png"
+
 
 export default function Cabecalho() {
   return (
