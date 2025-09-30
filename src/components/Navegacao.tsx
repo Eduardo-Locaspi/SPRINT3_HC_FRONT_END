@@ -11,6 +11,8 @@ export default function Navegacao(){
                 <li><Link to='/'>HOME</Link></li>
                 <li><Link to="/produtos">PRODUTOS</Link></li>
                 <li><Link to="/integrantes">INTEGRANTES</Link></li>
+                <li><Link to="/sobre">SOBRE</Link></li>
+
             </ul>
         </nav>
     )

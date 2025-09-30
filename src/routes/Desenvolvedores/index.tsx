@@ -11,9 +11,15 @@ export default function Integrantes() {
         {/* Eduardo */}
         <section className="bg-gray-100 text-gray-900 text-center rounded-md flex flex-col items-center border border-white">
           <div className="p-4">
-            <h2 className="p-4 text-3xl">Eduardo Locaspi</h2>
-            <img src={dudu} alt="Foto do desenvolvedor Eduardo Locaspi" className="w-40 h-40 object-cover rounded-md"/>
 
+            <hgroup className=' p-4'>
+              <h2 className="text-3xl">Eduardo Locaspi</h2>
+              <h3 className='text-gray-600'>RM561713</h3>
+            </hgroup>
+
+            <div className='flex justify-center'>
+              <img src={dudu} alt="Foto do desenvolvedor Eduardo Locaspi" className="w-40 h-40 object-cover rounded-md"/>
+            </div>
             <div className="p-5 flex flex-row justify-center gap-5">
 
               <a href="https://www.linkedin.com/in/eduardo-locaspi-14119934b/" target="_blank">
@@ -29,13 +35,20 @@ export default function Integrantes() {
 
         {/* Natan */}
         <section className="bg-gray-100 text-gray-900 text-center rounded-md flex flex-col items-center border border-white">
-          <div className="p-4">
-            <h2 className="p-4 text-3xl">Natan Moraes</h2>
-            <img
+          <div className="p-4 ">
+            <hgroup className=' p-4'>
+              <h2 className="text-3xl">Natan Moraes</h2>
+              <h3 className='text-gray-600'>RM564992</h3>
+            </hgroup>
+            
+            <div className='flex justify-center'> 
+              <img
               src={natan}
               alt="Foto do desenvolvedor Natan Moraes"
-              className="w-40 h-40 object-cover rounded-md"
-            />
+              className="w-40 h-40 object-cover rounded-md "
+              />
+            </div>
+            
 
             <div className="p-5 flex flex-row justify-center gap-5">
               <a
@@ -53,12 +66,18 @@ export default function Integrantes() {
         {/* Victor */}
         <section className="bg-gray-100 text-gray-900 text-center rounded-md flex flex-col items-center">
           <div className="p-4">
-            <h2 className="p-4 text-3xl">Victor Alves</h2>
-            <img
-              src={victor}
-              alt="Foto do desenvolvedor Victor Alves"
-              className="w-40 h-40 object-cover rounded-md"
-            />
+            <hgroup className=' p-4'>
+              <h2 className="text-3xl">Victor Alves</h2>
+              <h3 className='text-gray-600'>RM561833</h3>
+            </hgroup>
+
+            <div className='flex justify-center'>
+              <img
+                src={victor}
+                alt="Foto do desenvolvedor Victor Alves"
+                className="w-40 h-40 object-cover rounded-md"
+              />
+            </div>
 
             <div className="p-5 flex flex-row justify-center gap-5">
               <a href="https://www.linkedin.com/in/victor-alves-10587b2b6/" target="_blank">
