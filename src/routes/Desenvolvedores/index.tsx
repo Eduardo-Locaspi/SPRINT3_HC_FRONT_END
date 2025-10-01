@@ -15,6 +15,7 @@ export default function Integrantes() {
             <hgroup className=' p-4'>
               <h2 className="text-3xl">Eduardo Locaspi</h2>
               <h3 className='text-gray-600'>RM561713</h3>
+              <h3 className='text-gray-600'>1TDSPI</h3>
             </hgroup>
 
             <div className='flex justify-center'>
@@ -39,6 +40,8 @@ export default function Integrantes() {
             <hgroup className=' p-4'>
               <h2 className="text-3xl">Natan Moraes</h2>
               <h3 className='text-gray-600'>RM564992</h3>
+              <h3 className='text-gray-600'>1TDSPI</h3>
+
             </hgroup>
             
             <div className='flex justify-center'> 
@@ -69,6 +72,8 @@ export default function Integrantes() {
             <hgroup className=' p-4'>
               <h2 className="text-3xl">Victor Alves</h2>
               <h3 className='text-gray-600'>RM561833</h3>
+              <h3 className='text-gray-600'>1TDSPI</h3>
+
             </hgroup>
 
             <div className='flex justify-center'>
