@@ -7,7 +7,7 @@ A aplicação reúne um **Chatbot (Sophie)** e um **Dashboard inteligente (DashT
 
 ## Links Relacionados
 - GITHUB -> https://github.com/Eduardo-Locaspi/SPRINT3_HC_FRONT_END.git
-- YOUTUBE ->  
+- YOUTUBE -> https://www.youtube.com/watch?v=0hjbeacA_K0
 
 ---
 
